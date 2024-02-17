@@ -90,5 +90,39 @@
    #offer-img{
     border-radius: 5px;
     border-color: red;
-    padding: 200px;
+    padding: 150px;
    }
+
+   .function{
+    text-align: center;
+   }
+
+   .discounts{
+    display: flex;
+    justify-content: center;
+   }
+   #box{
+    margin-bottom: -250px;
+   }
+   .dis-50{
+    background-image: url("../resources/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+   }
+
+   .holiday{
+    text-align: center;
+   }
+
+   .gift{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 250px 50px ;
+   }
+   .gift img{
+    padding: 15px;
+   }
+
+   
+   
+
+   
