@@ -1,11 +1,13 @@
 
 .banner{
-    background-image: url('../resources/Banner\ Image.png');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+   margin: 30px 50px;
 
+}
+.banner img{
+  width: 100%;
+
+
+}
 .banner h1, h3{
     color: white;
     text-align: center;
@@ -15,7 +17,7 @@
 
 #title1{
   position: absolute;
-  top: 40%;
+  top:35%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: xx-large;
@@ -27,3 +29,66 @@
     transform: translate(-50%, -50%);
     font-size: 80px;
   }
+
+  .deals{
+    text-align: center;
+  }
+
+  .deals h1{
+    font-size: 70px;
+    color: red;
+  }
+
+  .deals p{
+    color: red;
+  }
+   .deals h4{
+    font-size: xx-large;
+   }
+
+   .party{
+    background-image: url("../resources/Vectorrr.png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px;
+    
+   }
+
+   .gretings{
+    
+    color: white;
+    margin-left: 350px;
+    margin-top: 100px;
+
+   }
+
+   #gre-text{
+    font-size: 70px;
+
+   }
+
+   .part-img{
+    margin-top: 100px;
+   }
+
+   .schedule{
+    text-align: center;
+    background-color: pink;
+    margin: 50px 200px;
+    padding: 150px;
+   }
+
+   .offer{
+    margin: 30px 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+   #offer-img{
+    border-radius: 5px;
+    border-color: red;
+    padding: 200px;
+   }
