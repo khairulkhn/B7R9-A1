@@ -134,24 +134,29 @@
     display: flex;
     justify-content: center;
    }
-   #box{
-    margin-bottom: -250px;
-   }
+   
    .dis-50{
     background-image: url("../resources/Rectangle\ 1.png");
     background-repeat: no-repeat;
+    
    }
-  
+  .dis-50 img{
+    position: relative;
+    right: 200px;
+    top: 100px;
+  }
+
+  .bot-red{
+    position: relative;
+    bottom: 200px;
+  }
    .holiday{
     text-align: center;
    }
-
-   
-
    .gift{
     display: flex;
     justify-content: space-around;
-    margin: 50px 250px 50px ;
+    margin: 0px 250px 50px ;
    }
    .gift img{
     padding: 15px;
@@ -160,10 +165,10 @@
    .gift :hover{
     box-shadow: 10px 10px 5px #888888;
     -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
    }
 
    .sub-con{
@@ -181,7 +186,6 @@
     border-radius: 30px;
     padding: 15px;
    }
-
 
    .footer{
     background-color: black;
